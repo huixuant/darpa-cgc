@@ -1,0 +1,27 @@
+start_time        : 13247215207
+last_update       : 13247219020
+fuzzer_pid        : 71848
+cycles_done       : 23
+execs_done        : 821958
+execs_per_sec     : 237.27
+paths_total       : 60
+paths_favored     : 7
+paths_found       : 59
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 11
+pending_favs      : 0
+pending_total     : 1
+variable_paths    : 6
+stability         : 98.33%
+bitmap_cvg        : 0.09%
+unique_crashes    : 1
+unique_hangs      : 0
+last_path         : 13247216363
+last_crash        : 13247218765
+last_hang         : 0
+execs_since_crash : 53462
+exec_timeout      : 20000
+afl_banner        : solfedge-project.exe
+afl_version       : 2.43b
+command_line      : afl-fuzz.exe -i input -o solfedge-round-1 -D ..\..\..\..\DynamoRIO-Windows-8.0.0-1\DynamoRIO-Windows-8.0.0-1\bin64 -t 20000 -- -coverage_module solfedge-project.exe -target_module solfedge-project.exe -target_offset 0x1230 -nargs 2 -- solfedge-project.exe 804619 @@
