@@ -1,0 +1,1 @@
+afl-fuzz.exe -i input -o solfedge-round-1 -D ..\..\..\..\DynamoRIO-Windows-8.0.0-1\DynamoRIO-Windows-8.0.0-1\bin64 -t 20000 -- -coverage_module solfedge-project.exe -target_module solfedge-project.exe -target_offset 0x1230 -nargs 2 -- solfedge-project.exe 804619 @@
